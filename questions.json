@@ -1,0 +1,87 @@
+[
+  {
+    "pergunta": "O que significa a sigla HTTP?",
+    "opcoes": [
+      "HyperText Transfer Protocol",
+      "High Transfer Text Process",
+      "Home Tool Transfer Protocol",
+      "HyperLink Text Transmission"
+    ],
+    "correta": 0
+  },
+  {
+    "pergunta": "Qual linguagem é conhecida por rodar 'no navegador'?",
+    "opcoes": ["Python", "JavaScript", "C", "SQL"],
+    "correta": 1
+  },
+  {
+    "pergunta": "O que faz o comando `git commit`?",
+    "opcoes": [
+      "Envia o código para o GitHub",
+      "Apaga o histórico do repositório",
+      "Registra uma 'foto' das mudanças no histórico local",
+      "Cria um repositório novo"
+    ],
+    "correta": 2
+  },
+  {
+    "pergunta": "Em segurança da informação, o que é '2FA'?",
+    "opcoes": [
+      "Um tipo de vírus",
+      "Verificação em duas etapas",
+      "Um protocolo de rede",
+      "Uma linguagem de programação"
+    ],
+    "correta": 1
+  },
+  {
+    "pergunta": "Qual destas NÃO é uma boa prática de senha?",
+    "opcoes": [
+      "Usar uma senha diferente em cada site",
+      "Usar um gerenciador de senhas",
+      "Reutilizar a mesma senha em vários sites",
+      "Ativar a verificação em duas etapas"
+    ],
+    "correta": 2
+  },
+  {
+    "pergunta": "O que é um 'array' (ou lista) em programação?",
+    "opcoes": [
+      "Um tipo de erro",
+      "Uma coleção ordenada de valores",
+      "Um comando para apagar arquivos",
+      "Um tipo de banco de dados"
+    ],
+    "correta": 1
+  },
+  {
+    "pergunta": "Qual extensão de arquivo é usada por planilhas do Excel?",
+    "opcoes": [".docx", ".pptx", ".xlsx", ".pdf"],
+    "correta": 2
+  },
+  {
+    "pergunta": "O que é 'localhost'?",
+    "opcoes": [
+      "Um servidor na nuvem",
+      "O endereço do próprio computador",
+      "Um tipo de vírus",
+      "Um provedor de internet"
+    ],
+    "correta": 1
+  },
+  {
+    "pergunta": "Qual destes é um sistema operacional?",
+    "opcoes": ["MySQL", "Linux", "Python", "Photoshop"],
+    "correta": 1
+  },
+  {
+    "pergunta": "O que significa 'open source'?",
+    "opcoes": [
+      "Software gratuito só por um tempo",
+      "Código-fonte aberto, que qualquer um pode ver e modificar",
+      "Um software sem suporte técnico",
+      "Um software que só roda online"
+    ],
+    "correta": 1
+  }
+]

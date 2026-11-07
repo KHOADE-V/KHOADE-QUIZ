@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>KHOADE Quiz</title>
+  <meta name="description" content="Quiz de múltipla escolha sobre tecnologia, que roda só no seu navegador.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <header>
+      <h1>KHOADE <span>Quiz</span></h1>
+      <p class="subtitle" id="subtitulo">Teste seus conhecimentos de tecnologia.</p>
+    </header>
+
+    <section id="tela-inicio" class="cartao">
+      <p>10 perguntas de múltipla escolha. Seu melhor resultado fica salvo neste navegador.</p>
+      <p id="melhor-resultado" class="melhor" hidden></p>
+      <button id="btn-comecar" type="button">Começar</button>
+    </section>
+
+    <section id="tela-jogo" class="cartao" hidden>
+      <p class="progresso" id="progresso"></p>
+      <h2 id="pergunta-texto"></h2>
+      <div id="opcoes" class="opcoes" role="list"></div>
+      <p id="feedback" class="feedback" aria-live="polite" hidden></p>
+      <button id="btn-proxima" type="button" hidden>Próxima</button>
+    </section>
+
+    <section id="tela-fim" class="cartao" hidden>
+      <h2>Resultado</h2>
+      <p id="resultado-texto" class="resultado"></p>
+      <button id="btn-reiniciar" type="button">Jogar de novo</button>
+    </section>
+  </main>
+
+  <script src="quiz.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
